@@ -57,6 +57,9 @@
     _tableView.tableHeaderView = header;
     _tableView.separatorColor = [UIColor whiteColor];
     _tableView.delegate = self;
+    
+    
+    
     _tableView.dataSource = self;
     [self.view addSubview:_tableView];
     
