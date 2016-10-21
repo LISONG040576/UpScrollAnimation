@@ -143,6 +143,9 @@
     }
     
     if (offsetY < (280 - 64*2)) {
+        
+        
+        
         _navImageView.hidden = YES;
     }
     
