@@ -6,13 +6,13 @@
 //  Copyright © 2016年 海尔智能-李松. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "UPSAppDelegate.h"
 
-@interface AppDelegate ()
+@interface UPSAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation UPSAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
