@@ -16,7 +16,9 @@ Pod::Spec.new do |s|
   
   s.source       = { :git => "https://github.com/LISONG040576/UpScrollAnimation.git", :tag => s.version.to_s }
 
-  s.source_files  = "上移动画/*{h,m,plist,png}"
+  s.source_files  = "上移动画/*.{h,m}"
+
+  s.resources = '上移动画/*.{plist,png}'
 
   s.requires_arc = true
 
