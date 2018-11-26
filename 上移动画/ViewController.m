@@ -11,6 +11,7 @@
 #import "TableViewCell.h"
 
 
+
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
     UIImageView *_headerImageView;
@@ -23,12 +24,34 @@
     UIImageView *_navImageView;
 }
 
+@property (nonatomic, copy, nullable) SJCompletionHandler completionHandler;
+
 @end
 
 #define kScreenSize [UIScreen mainScreen].bounds.size
 #define kHeaderViewH 280
 
 @implementation ViewController
+
+
++ (NSString *)routePath{
+    return @"upscroll/vc/homepage";
+}
+
++ (void)handleRequestWithParameters:(SJParameters)parameters topViewController:(UIViewController *)topViewController completionHandler:(SJCompletionHandler)completionHandler{
+    
+    NSLog(@"---- %@",parameters);
+    
+    ViewController *viewC = [ViewController new];
+    viewC.completionHandler = completionHandler;
+    [topViewController.navigationController pushViewController:viewC animated:YES];
+    
+}
+
+
+
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];

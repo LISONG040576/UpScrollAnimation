@@ -1,3 +1,18 @@
-PODFILE CHECKSUM: 783e2a2078f6553f89610054a9daedd901e0b55f
+PODS:
+  - SJRouter (0.0.9):
+    - SJRouter/Core (= 0.0.9)
+  - SJRouter/Core (0.0.9)
+
+DEPENDENCIES:
+  - SJRouter
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SJRouter
+
+SPEC CHECKSUMS:
+  SJRouter: 83d99661639b4be9e937e6167c830f9f8283f93f
+
+PODFILE CHECKSUM: 84e5ac72ddb9a966288695d40cdfacf60e609f20
 
 COCOAPODS: 1.5.3

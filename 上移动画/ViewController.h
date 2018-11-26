@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SJRouter/SJRouter.h>
+#import <SJRouteHandler.h>
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController<SJRouteHandler>
 
 
 @end
