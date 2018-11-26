@@ -2,11 +2,13 @@ Pod::Spec.new do |s|
 
   
   s.name         = "UpScrollAnimation"
-  s.version      = "0.0.2"
-  s.summary      = "hahahahahahahah of UpScrollAnimation."
+  s.version      = "0.0.3"
+  s.summary      = "UpScrollAnimation."
 
   
-  s.description  = "hahahahahahaaaaaaaaaaaaaaaahhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+  s.description  = <<-DESC 
+                         UpScrollAnimation  是一个用于保存一些常用工具类的工具
+                   DESC
 
   s.homepage     = "https://github.com/LISONG040576/UpScrollAnimation.git"
   
@@ -16,15 +18,17 @@ Pod::Spec.new do |s|
   
   s.source       = { :git => "https://github.com/LISONG040576/UpScrollAnimation.git", :tag => s.version.to_s }
 
-  s.source_files  = "上移动画/*.{h,m}"
+  s.source_files  = "上移动画"
 
-  s.resources = '上移动画/*.{plist,png}'
+  s.resources = '上移动画/*.{jpg,png}'
 
   s.requires_arc = true
 
   s.platform = :ios
 
   s.frameworks ="CoreText","UIKit"
+
+  s.ios.deployment_target = '6.0'
 
 
 
