@@ -22,6 +22,8 @@ Pod::Spec.new do |s|
 
   s.platform = :ios
 
+  s.frameworks ="CoreText","UIKit"
+
 
 
 
