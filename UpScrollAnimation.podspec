@@ -18,6 +18,10 @@ Pod::Spec.new do |s|
 
   s.source_files  = "上移动画/*{h,m,plist,png}"
 
+  s.requires_arc = true
+
+  s.platform = ios
+
 
   # s.exclude_files = "Classes/Exclude"
 
