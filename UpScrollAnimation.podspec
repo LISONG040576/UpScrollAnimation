@@ -3,15 +3,14 @@ Pod::Spec.new do |s|
   
   s.name         = "UpScrollAnimation"
   s.version      = "0.0.1"
-  s.summary      = "A short description of UpScrollAnimation."
+  s.summary      = "hahahahahahahah of UpScrollAnimation."
 
   
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "hahahahahahaaaaaaaaaaaaaaaahhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
 
   s.homepage     = "https://github.com/LISONG040576/UpScrollAnimation.git"
   
-  s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   
   s.author             = { "lisong" => "lisong.s@haier.com" }
   
