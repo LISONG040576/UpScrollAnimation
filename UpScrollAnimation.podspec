@@ -10,17 +10,32 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/LISONG040576/UpScrollAnimation.git"
   
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = "MIT"
   
   s.author             = { "lisong" => "lisong.s@haier.com" }
   
-  s.source       = { :git => "https://github.com/LISONG040576/UpScrollAnimation.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/LISONG040576/UpScrollAnimation.git", :tag => s.version.to_s }
 
   s.source_files  = "上移动画/*{h,m,plist,png}"
 
   s.requires_arc = true
 
-  s.platform = ios
+  s.platform = :ios
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   # s.exclude_files = "Classes/Exclude"
