@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "TTTAttributedLabel.h"
 
-@interface TableViewCell : UITableViewCell
+@interface UPSTableViewCell : UITableViewCell
 {
     TTTAttributedLabel *tttLabel;
 }

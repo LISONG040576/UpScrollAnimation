@@ -7,6 +7,8 @@
 //
 
 #import "UPSAppDelegate.h"
+#import "UPSViewController.h"
+
 
 @interface UPSAppDelegate ()
 
@@ -17,6 +19,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // 创建window
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    // 创建根视图C
+    UPSViewController *rootVC = [[UPSViewController alloc] init];
+    // 设置根视图控制器
+    _window.rootViewController = rootVC;
+    _window.backgroundColor = [UIColor whiteColor];
+    // 显示
+    [_window makeKeyAndVisible];
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
     return YES;
 }
 

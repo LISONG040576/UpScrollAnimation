@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		9390CFA31B881F27F1D773EE /* libPods-上移动画.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 896834D1E7D0DAD96460B906 /* libPods-上移动画.a */; };
 		F505BBB21D9CE884006FBB52 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F505BBB11D9CE884006FBB52 /* TTTAttributedLabel.m */; };
-		F505BBB51D9CECC7006FBB52 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F505BBB41D9CECC7006FBB52 /* TableViewCell.m */; };
+		F505BBB51D9CECC7006FBB52 /* UPSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F505BBB41D9CECC7006FBB52 /* UPSTableViewCell.m */; };
 		F505BBB71D9D1598006FBB52 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F505BBB61D9D1598006FBB52 /* 3.jpg */; };
 		F561DF1E1D9BB7F4001EC75B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F561DF1D1D9BB7F4001EC75B /* main.m */; };
 		F561DF211D9BB7F4001EC75B /* UPSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F561DF201D9BB7F4001EC75B /* UPSAppDelegate.m */; };
-		F561DF241D9BB7F4001EC75B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F561DF231D9BB7F4001EC75B /* ViewController.m */; };
-		F561DF271D9BB7F4001EC75B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F561DF251D9BB7F4001EC75B /* Main.storyboard */; };
+		F561DF241D9BB7F4001EC75B /* UPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F561DF231D9BB7F4001EC75B /* UPSViewController.m */; };
 		F561DF291D9BB7F4001EC75B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F561DF281D9BB7F4001EC75B /* Assets.xcassets */; };
 		F561DF2C1D9BB7F4001EC75B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F561DF2A1D9BB7F4001EC75B /* LaunchScreen.storyboard */; };
 		F561DF341D9BB984001EC75B /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F561DF331D9BB984001EC75B /* 1.png */; };
 		F561DF361D9BC08F001EC75B /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F561DF351D9BC08F001EC75B /* 2.png */; };
+		F59D6AB121AFC7B800ABFE77 /* UPSModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F59D6AB021AFC7B800ABFE77 /* UPSModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,21 +27,22 @@
 		B5FB8A2FAB36965390D91506 /* Pods-上移动画.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-上移动画.release.xcconfig"; path = "Pods/Target Support Files/Pods-上移动画/Pods-上移动画.release.xcconfig"; sourceTree = "<group>"; };
 		F505BBB01D9CE884006FBB52 /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
 		F505BBB11D9CE884006FBB52 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
-		F505BBB31D9CECC7006FBB52 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
-		F505BBB41D9CECC7006FBB52 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		F505BBB31D9CECC7006FBB52 /* UPSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPSTableViewCell.h; sourceTree = "<group>"; };
+		F505BBB41D9CECC7006FBB52 /* UPSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPSTableViewCell.m; sourceTree = "<group>"; };
 		F505BBB61D9D1598006FBB52 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		F561DF191D9BB7F4001EC75B /* 上移动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "上移动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F561DF1D1D9BB7F4001EC75B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F561DF1F1D9BB7F4001EC75B /* UPSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UPSAppDelegate.h; sourceTree = "<group>"; };
 		F561DF201D9BB7F4001EC75B /* UPSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UPSAppDelegate.m; sourceTree = "<group>"; };
-		F561DF221D9BB7F4001EC75B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F561DF231D9BB7F4001EC75B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F561DF261D9BB7F4001EC75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F561DF221D9BB7F4001EC75B /* UPSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UPSViewController.h; sourceTree = "<group>"; };
+		F561DF231D9BB7F4001EC75B /* UPSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UPSViewController.m; sourceTree = "<group>"; };
 		F561DF281D9BB7F4001EC75B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F561DF2B1D9BB7F4001EC75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F561DF2D1D9BB7F4001EC75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F561DF331D9BB984001EC75B /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		F561DF351D9BC08F001EC75B /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		F59D6AAF21AFC7B800ABFE77 /* UPSModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UPSModule.h; sourceTree = "<group>"; };
+		F59D6AB021AFC7B800ABFE77 /* UPSModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UPSModule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +99,12 @@
 				F505BBB11D9CE884006FBB52 /* TTTAttributedLabel.m */,
 				F561DF1F1D9BB7F4001EC75B /* UPSAppDelegate.h */,
 				F561DF201D9BB7F4001EC75B /* UPSAppDelegate.m */,
-				F561DF221D9BB7F4001EC75B /* ViewController.h */,
-				F561DF231D9BB7F4001EC75B /* ViewController.m */,
-				F505BBB31D9CECC7006FBB52 /* TableViewCell.h */,
-				F505BBB41D9CECC7006FBB52 /* TableViewCell.m */,
-				F561DF251D9BB7F4001EC75B /* Main.storyboard */,
+				F561DF221D9BB7F4001EC75B /* UPSViewController.h */,
+				F561DF231D9BB7F4001EC75B /* UPSViewController.m */,
+				F505BBB31D9CECC7006FBB52 /* UPSTableViewCell.h */,
+				F505BBB41D9CECC7006FBB52 /* UPSTableViewCell.m */,
+				F59D6AAF21AFC7B800ABFE77 /* UPSModule.h */,
+				F59D6AB021AFC7B800ABFE77 /* UPSModule.m */,
 				F561DF281D9BB7F4001EC75B /* Assets.xcassets */,
 				F561DF331D9BB984001EC75B /* 1.png */,
 				F561DF351D9BC08F001EC75B /* 2.png */,
@@ -184,7 +186,6 @@
 				F561DF2C1D9BB7F4001EC75B /* LaunchScreen.storyboard in Resources */,
 				F561DF291D9BB7F4001EC75B /* Assets.xcassets in Resources */,
 				F561DF361D9BC08F001EC75B /* 2.png in Resources */,
-				F561DF271D9BB7F4001EC75B /* Main.storyboard in Resources */,
 				F505BBB71D9D1598006FBB52 /* 3.jpg in Resources */,
 				F561DF341D9BB984001EC75B /* 1.png in Resources */,
 			);
@@ -218,10 +219,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F561DF241D9BB7F4001EC75B /* ViewController.m in Sources */,
+				F561DF241D9BB7F4001EC75B /* UPSViewController.m in Sources */,
 				F561DF211D9BB7F4001EC75B /* UPSAppDelegate.m in Sources */,
 				F561DF1E1D9BB7F4001EC75B /* main.m in Sources */,
-				F505BBB51D9CECC7006FBB52 /* TableViewCell.m in Sources */,
+				F505BBB51D9CECC7006FBB52 /* UPSTableViewCell.m in Sources */,
+				F59D6AB121AFC7B800ABFE77 /* UPSModule.m in Sources */,
 				F505BBB21D9CE884006FBB52 /* TTTAttributedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,14 +231,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F561DF251D9BB7F4001EC75B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F561DF261D9BB7F4001EC75B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F561DF2A1D9BB7F4001EC75B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

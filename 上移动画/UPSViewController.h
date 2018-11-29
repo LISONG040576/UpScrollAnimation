@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <SJRouter/SJRouter.h>
-#import <SJRouter/SJRouteHandler.h>
+#import <LSMiddleWare/LSRouter.h>
+#import <LSMiddleWare/LSRouteHandler.h>
 
 
-@interface ViewController : UIViewController<SJRouteHandler>
+@interface UPSViewController : UIViewController<LSRouteHandler>
 
 
 @end

@@ -1,18 +1,16 @@
 PODS:
-  - SJRouter (0.0.9):
-    - SJRouter/Core (= 0.0.9)
-  - SJRouter/Core (0.0.9)
+  - LSMiddleWare (0.0.2)
 
 DEPENDENCIES:
-  - SJRouter
+  - LSMiddleWare (~> 0.0.2)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - SJRouter
+    - LSMiddleWare
 
 SPEC CHECKSUMS:
-  SJRouter: 83d99661639b4be9e937e6167c830f9f8283f93f
+  LSMiddleWare: aab6e635d709c611b8e4eb90c202abd5226ec4d4
 
-PODFILE CHECKSUM: 84e5ac72ddb9a966288695d40cdfacf60e609f20
+PODFILE CHECKSUM: 3d84d7cc2bb58c44281806bcd263b16f2112ec20
 
 COCOAPODS: 1.5.3

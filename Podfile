@@ -4,6 +4,6 @@ target:'上移动画'do
     
     
     
-pod 'SJRouter'
+pod 'LSMiddleWare', '~> 0.0.2'
 
 end

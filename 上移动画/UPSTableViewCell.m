@@ -6,10 +6,10 @@
 //  Copyright © 2016年 海尔智能-李松. All rights reserved.
 //
 
-#import "TableViewCell.h"
+#import "UPSTableViewCell.h"
 
 
-@implementation TableViewCell
+@implementation UPSTableViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];

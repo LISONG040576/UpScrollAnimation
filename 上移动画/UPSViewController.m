@@ -6,13 +6,13 @@
 //  Copyright © 2016年 海尔智能-李松. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "UPSViewController.h"
 #import "TTTAttributedLabel.h"
-#import "TableViewCell.h"
+#import "UPSTableViewCell.h"
 
 
 
-@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface UPSViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
     UIImageView *_headerImageView;
     UIImageView *_userImageView;
@@ -24,25 +24,25 @@
     UIImageView *_navImageView;
 }
 
-@property (nonatomic, copy, nullable) SJCompletionHandler completionHandler;
+@property (nonatomic, copy, nullable) LSCompletionHandler completionHandler;
 
 @end
 
 #define kScreenSize [UIScreen mainScreen].bounds.size
 #define kHeaderViewH 280
 
-@implementation ViewController
+@implementation UPSViewController
 
 
 + (NSString *)routePath{
     return @"upscroll/vc/homepage";
 }
 
-+ (void)handleRequestWithParameters:(SJParameters)parameters topViewController:(UIViewController *)topViewController completionHandler:(SJCompletionHandler)completionHandler{
++ (void)handleRequestWithParameters:(LSParameters)parameters topViewController:(UIViewController *)topViewController completionHandler:(LSCompletionHandler)completionHandler{
     
     NSLog(@"---- %@",parameters);
     
-    ViewController *viewC = [ViewController new];
+    UPSViewController *viewC = [UPSViewController new];
     viewC.completionHandler = completionHandler;
     [topViewController.navigationController pushViewController:viewC animated:YES];
     
@@ -121,13 +121,13 @@
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     static NSString *cellid = @"cellid";
-    TableViewCell *cell;// = [tableView dequeueReusableCellWithIdentifier:cellid];
+    UPSTableViewCell *cell;// = [tableView dequeueReusableCellWithIdentifier:cellid];
     if (!cell) {
         
         if (indexPath.row < 1) {
-            cell = [[TableViewCell alloc] initWithStyle:(UITableViewCellStyleDefault) reuseIdentifier:cellid withString:@"\n作者：全肃"];
+            cell = [[UPSTableViewCell alloc] initWithStyle:(UITableViewCellStyleDefault) reuseIdentifier:cellid withString:@"\n作者：全肃"];
         }else{
-            cell = [[TableViewCell alloc] initWithStyle:(UITableViewCellStyleDefault) reuseIdentifier:cellid withString:_stringArr[indexPath.row]] ;
+            cell = [[UPSTableViewCell alloc] initWithStyle:(UITableViewCellStyleDefault) reuseIdentifier:cellid withString:_stringArr[indexPath.row]] ;
         }
         
     }
